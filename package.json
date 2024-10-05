@@ -1,16 +1,16 @@
 {
-  "homepage": "https://claudiopactat/github.io/preguntas-y-respuestas-app",
-  "name": "preguntas-y-respuestas-app",
+  "name": "",
   "private": true,
+  "homepage": "https://claudiopactat.github.io/preguntas-y-respuestas-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",

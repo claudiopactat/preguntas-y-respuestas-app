@@ -21,9 +21,9 @@ export const categories = {
   literatura: "Literatura",
   deportes: "Deportes",
   ciencia: "Ciencia",
-  filosofia: "Filosofía",
-  tecnologia: "Tecnología",
-  geografia: "Geografía",
+  filosofia: "Filosofia",
+  tecnologia: "Tecnologia",
+  geografia: "Geografia",
 };
 
 const {

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { imgs, categories } from "../data";
 import { CategoryCard } from "./CategoryCard";
 

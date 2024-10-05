@@ -17,11 +17,19 @@ export const CategoryPage = () => {
   //   (img) => img === `/src/assets/${category.toLowerCase()}.png`
   // );
 
-  console.log(category);
+  console.log(
+    category +
+      " : " +
+      `/preguntas-y-respuestas-app/src/assets/${category.toLowerCase()}.png`
+  );
 
   const [imgCategory] = imgs.filter(
-    (img) => img === `/src/assets/${category.toLowerCase()}.png`
+    (img) =>
+      img ===
+      `/preguntas-y-respuestas-app/src/assets/${category.toLowerCase()}.png`
   );
+
+  // console.log(imgs);
 
   const [questionsFiltered, setQuestionsFiltered] = useState(
     questions.filter((question) => question.category === category)
