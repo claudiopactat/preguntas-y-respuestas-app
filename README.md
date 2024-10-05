@@ -1,8 +1,10 @@
-# React + Vite
+# Juego de Preguntas y Respuestas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Enlace : https://claudiopactat.github.io/preguntas-y-respuestas-app/
 
-Currently, two official plugins are available:
+Notas : 
+- Al entrar al enlace se debe hacer click sobre el Navbar "Preguntas y Respuestas" para acceder a la pagina de inicio
+- Se selecciona una categoria y se procede a responder 5 preguntas aleatorias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Realizado con : Vite + React + JavaScript
