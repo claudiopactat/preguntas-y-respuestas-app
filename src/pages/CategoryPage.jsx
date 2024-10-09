@@ -17,11 +17,13 @@ export const CategoryPage = () => {
   //   (img) => img === `/src/assets/${category.toLowerCase()}.png`
   // );
 
-  console.log(category + " : " + `/assets/${imgCategory}.png`);
+  //console.log(category + " : " + `/assets/${category.toLowerCase()}.png`);
 
   const [imgCategory] = imgs.filter(
     (img) => img === `/assets/${category.toLowerCase()}.png`
   );
+
+  console.log(imgCategory + " : " + `/assets/${category.toLowerCase()}.png`);
 
   // console.log(imgs);
 
