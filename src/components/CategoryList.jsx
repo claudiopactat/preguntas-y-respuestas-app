@@ -13,6 +13,8 @@ const [
 ] = imgs;
 
 export const CategoryList = () => {
+  console.log("src : " + imgCiencia);
+
   return (
     <div className="flex flex-row flex-wrap justify-center gap-4 mt-10">
       {/* Category Link Ciencia */}
