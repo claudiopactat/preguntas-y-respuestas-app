@@ -1,7 +1,7 @@
 {
   "name": "preguntas-y-respuestas-app",
   "private": true,
-  "homepage": "https://claudiopactat.github.io/preguntas-y-respuestas-app",
+  "homepage": "/preguntas-y-respuestas-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
