@@ -17,16 +17,10 @@ export const CategoryPage = () => {
   //   (img) => img === `/src/assets/${category.toLowerCase()}.png`
   // );
 
-  console.log(
-    category +
-      " : " +
-      `/preguntas-y-respuestas-app/src/assets/${category.toLowerCase()}.png`
-  );
+  console.log(category + " : " + `/assets/${category.toLowerCase()}.png`);
 
   const [imgCategory] = imgs.filter(
-    (img) =>
-      img ===
-      `/preguntas-y-respuestas-app/src/assets/${category.toLowerCase()}.png`
+    (img) => img === `/assets/${category.toLowerCase()}.png`
   );
 
   // console.log(imgs);
