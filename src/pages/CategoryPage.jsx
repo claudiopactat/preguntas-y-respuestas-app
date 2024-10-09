@@ -3,6 +3,16 @@ import { useParams } from "react-router-dom";
 import { Question } from "../components/Question";
 import { questions, imgs } from "../data";
 
+const [
+  imgCiencia,
+  imgDeportes,
+  imgFilosofia,
+  imgGeografia,
+  imgHistoria,
+  imgLiteratura,
+  imgTecnologia,
+] = imgs;
+
 // Funcion para barajar las preguntas de cada categoria y tambien reducirla al numero de 5
 const shuffleArray = (array) => {
   const newArray = array.sort(() => Math.random() - 0.5);
@@ -17,13 +27,11 @@ export const CategoryPage = () => {
   //   (img) => img === `/src/assets/${category.toLowerCase()}.png`
   // );
 
-  //console.log(category + " : " + `/assets/${category.toLowerCase()}.png`);
+  console.log(imgCiencia + " : " + `/assets/${imgCiencia.toLowerCase()}.png`);
 
   const [imgCategory] = imgs.filter(
     (img) => img === `/assets/${category.toLowerCase()}.png`
   );
-
-  console.log(imgCategory + " : " + `/assets/${category.toLowerCase()}.png`);
 
   // console.log(imgs);
 
