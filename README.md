@@ -1,10 +1,16 @@
 # Juego de Preguntas y Respuestas
 
-Enlace : https://claudiopactat.github.io/preguntas-y-respuestas-app/
+Enlace : https://cfp-preguntas-y-respuestas.netlify.app
 
-Notas : 
-- Al entrar al enlace se debe hacer click sobre el Navbar "Preguntas y Respuestas" para acceder a la pagina de inicio
-- Se selecciona una categoria y se procede a responder 5 preguntas aleatorias
+#
 
+Información :
+- Categorias: Ciencia, Deportes, Filosofía, Geografía, Historia, Literatura, Tecnología.
+- 5 preguntas con diferentes dificultades por categoría.
+
+Nota :
+- Click en el Header para ir al inicio.
+
+#
 
 Realizado con : Vite + React + JavaScript
