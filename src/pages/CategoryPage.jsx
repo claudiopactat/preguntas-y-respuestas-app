@@ -31,7 +31,8 @@ export const CategoryPage = () => {
 
   
 
-  const [imgCategory] = imgs.filter((img) => img === `/src/assets/${category.toLowerCase()}.png`);
+  //const [imgCategory] = imgs.filter((img) => img === `/src/assets/${category.toLowerCase()}.png`);
+  const imgCategory = imgs.filter((img) => img.toLowerCase().includes(category.toLowerCase()));
 
   
   
