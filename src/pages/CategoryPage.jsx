@@ -24,6 +24,7 @@ export const CategoryPage = () => {
   const { category } = useParams();
 
 
+  console.log("Categoria : " + category)
   console.log("Elegimos : " + `${imgCiencia}`);
   console.log("Deberiamos elegir : " + `/src/assets/${category.toLowerCase()}.png`);
   
