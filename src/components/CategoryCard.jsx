@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const CategoryCard = ({ category, alt, src, gradientColor }) => {
-  console.log("src de CategoryCard : " + src);
+  //console.log("src de CategoryCard : " + src);
 
   return (
     <Link

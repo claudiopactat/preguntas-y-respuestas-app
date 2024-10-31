@@ -23,25 +23,10 @@ export const CategoryPage = () => {
   // Leer el parametro de la URL
   const { category } = useParams();
 
-
-  console.log("Categoria : " + category)
-  console.log("Elegimos : " + `${imgCiencia}`);
-  console.log("Deberiamos elegir : " + `/src/assets/${category.toLowerCase()}.png`);
-
-
-  
-
-  //const [imgCategory] = imgs.filter((img) => img === `/src/assets/${category.toLowerCase()}.png`);
   const imgCategory = imgs.filter((img) => img.toLowerCase().includes(category.toLowerCase()));
-
   
-  
-  
-  console.log(imgs);
-  console.log("Al final elegimos : " + imgCategory)
-
-
-
+  //console.log(imgs);
+  //console.log("Al final elegimos : " + imgCategory)
 
 
   const [questionsFiltered, setQuestionsFiltered] = useState(

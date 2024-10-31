@@ -13,7 +13,7 @@ const [
 ] = imgs;
 
 export const CategoryList = () => {
-  console.log("src de CategoryList : " + imgCiencia);
+  //console.log("src de CategoryList : " + imgCiencia);
 
   return (
     <div className="flex flex-row flex-wrap justify-center gap-4 mt-10">
