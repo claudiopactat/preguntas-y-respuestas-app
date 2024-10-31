@@ -23,13 +23,12 @@ export const CategoryPage = () => {
   // Leer el parametro de la URL
   const { category } = useParams();
 
-  // const [imgCategory] = imgs.filter(
-  //   (img) => img === `/src/assets/${category.toLowerCase()}.png`
-  // );
 
-  console.log(imgCiencia + " : " + `${imgCiencia}`);
+  //console.log("Elegimos : " + `${imgCiencia}`);
+  //console.log("Deberiamos elegir : " + `/src/assets/${category.toLowerCase()}.png`);
+  
 
-  const [imgCategory] = imgs.filter((img) => img === `${imgCiencia}`);
+  const [imgCategory] = imgs.filter((img) => img === `/src/assets/${category.toLowerCase()}.png`);
 
   // console.log(imgs);
 
