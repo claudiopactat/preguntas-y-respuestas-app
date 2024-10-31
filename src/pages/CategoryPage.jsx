@@ -27,12 +27,20 @@ export const CategoryPage = () => {
   console.log("Categoria : " + category)
   console.log("Elegimos : " + `${imgCiencia}`);
   console.log("Deberiamos elegir : " + `/src/assets/${category.toLowerCase()}.png`);
+
+
   
 
   const [imgCategory] = imgs.filter((img) => img === `/src/assets/${category.toLowerCase()}.png`);
 
-  // console.log(imgs);
+  
+  
+  
+  console.log(imgs);
 
+
+
+  
   const [questionsFiltered, setQuestionsFiltered] = useState(
     questions.filter((question) => question.category === category)
   );
