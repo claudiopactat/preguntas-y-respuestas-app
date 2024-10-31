@@ -37,10 +37,12 @@ export const CategoryPage = () => {
   
   
   console.log(imgs);
+  console.log("Al final elegimos : " + imgCategory)
 
 
 
-  
+
+
   const [questionsFiltered, setQuestionsFiltered] = useState(
     questions.filter((question) => question.category === category)
   );
